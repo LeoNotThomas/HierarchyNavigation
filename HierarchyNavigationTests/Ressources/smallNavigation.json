@@ -1,0 +1,132 @@
+{
+  "navigationEntries": [
+      {
+          "type": "section",
+          "label": "0",
+          "children": [
+              {
+                  "type": "node",
+                  "label": "0",
+                  "children": [
+                      {
+                          "type": "node",
+                          "label": "0",
+                          "children": [
+                              {
+                                  "type": "link",
+                                  "label": "0",
+                                  "url": "http://www.mytoys.de/0-6-months/"
+                              },
+                              {
+                                  "type": "link",
+                                  "label": "1",
+                                  "url": "http://www.mytoys.de/7-12-months/"
+                              },
+                              {
+                                  "type": "link",
+                                  "label": "2",
+                                  "url": "http://www.mytoys.de/13-24-months/"
+                              }
+                          ]
+                      },
+                      {
+                          "type": "node",
+                          "label": "1",
+                          "children": [
+                              {
+                                  "type": "link",
+                                  "label": "0",
+                                  "url": "http://www.mytoys.de/24-47-months/"
+                              },
+                              {
+                                  "type": "link",
+                                  "label": "1",
+                                  "url": "http://www.mytoys.de/48-71-months/"
+                              }
+                          ]
+                      },
+                  ]
+              },
+              {
+                  "type": "node",
+                  "label": "1",
+                  "children": [
+                      {
+                          "type": "node",
+                          "label": "0",
+                          "children": [
+                              {
+                                  "type": "link",
+                                  "label": "0",
+                                  "url": "http://www.mytoys.de/baby-schwangerschaft/babymode/"
+                              },
+                              {
+                                  "type": "link",
+                                  "label": "1",
+                                  "url": "http://www.mytoys.de/baby-schwangerschaft/alles-fuer-unterwegs/"
+                              }
+                          ]
+                      },
+                      {
+                          "type": "node",
+                          "label": "1",
+                          "children": [
+                              {
+                                  "type": "link",
+                                  "label": "0",
+                                  "url": "http://www.mytoys.de/spielzeug-spiele/"
+                              },
+                              {
+                                  "type": "link",
+                                  "label": "1",
+                                  "url": "http://www.mytoys.de/spielzeug-spiele/autos-fahrzeuge-flieger/"
+                              },
+                              {
+                                  "type": "link",
+                                  "label": "2",
+                                  "url": "http://www.mytoys.de/spielzeug-spiele/baby-kleinkindspielzeug/"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "type": "section",
+          "label": "1",
+          "children": [
+              {
+                  "type": "link",
+                  "label": "0",
+                  "url": "http://www.mytoys.de/sale/"
+              },
+              {
+                  "type": "link",
+                  "label": "1",
+                  "url": "http://www.mytoys.de/baby-schwangerschaft/sale/"
+              },
+              {
+                  "type": "link",
+                  "label": "2",
+                  "url": "http://www.mytoys.de/spielzeug-spiele/sale/"
+              },
+              {
+                  "type": "link",
+                  "label": "3",
+                  "url": "http://www.mytoys.de/mode-schuhe/sale/"
+              },
+              {
+                  "type": "link",
+                  "label": "4",
+                  "url": "http://www.mytoys.de/14e/"
+              },
+              {
+                  "type": "link",
+                  "label": "5",
+                  "url": "http://www.mytoys.de/mkt/knaller-der-woche"
+              }
+          ]
+      }
+  ]
+}
