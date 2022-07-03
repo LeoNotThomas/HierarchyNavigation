@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import HierarchyNavigation
 
 class HierarchyNavigationUITests: XCTestCase {
 
@@ -21,12 +22,31 @@ class HierarchyNavigationUITests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    
+    private func launchApp() -> XCUIApplication {
         let app = XCUIApplication()
         app.launch()
+        return app
+    }
+    
+    private func checkExist(e: XCUIElement, timeout: TimeInterval = 2) {
+        if !e.waitForExistence(timeout: timeout) {
+            XCTFail("Can't find a expected element")
+        }
+        
+    }
 
+    func testNavigationAfterLink() throws {
+        // UI tests must launch the application that they test.
+        //TO DO: This test we should do against mocking data
+        let app = launchApp()
+        app.descendants(matching: .any)[Constant.AccessibilityIdentifier.menuButton].tap()
+        app.staticTexts["Alter"].tap()
+        app.staticTexts["Kindergarten"].tap()
+        app.staticTexts["2-3 Jahre"].tap()
+        app.descendants(matching: .any)[Constant.AccessibilityIdentifier.menuButton].tap()
+        let toCheck = app.staticTexts["2-3 Jahre"]
+        checkExist(e: toCheck)
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 

@@ -11,6 +11,7 @@ import UIKit
 extension UIBarButtonItem {
     static func menuItem(target: Any, action: Selector) -> UIBarButtonItem {
         let button: UIButton = UIButton.imageButton(imageNamed: "menu", target: target, action: action)
+        button.accessibilityIdentifier = Constant.AccessibilityIdentifier.menuButton
         let barButton = UIBarButtonItem(customView: button)
         return barButton
     }

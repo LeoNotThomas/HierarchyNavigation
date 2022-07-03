@@ -82,17 +82,3 @@ struct NavigationItemModel: Equatable {
         }
     }
 }
-
-internal extension Int {
-    func stringId(size: Int = 4) -> String {
-        var res = String(self)
-        let count = 4 - res.count
-        if count < 1 {
-            return res
-        }
-        for _ in 1...count {
-            res = "0" + res
-        }
-        return res
-    }
-}

@@ -12,4 +12,9 @@ struct Constant {
         static let toyLink          = "mytoylink"
         static let navigationStack  = "navigationStack"
     }
+    
+    struct AccessibilityIdentifier {
+        static let loadingView      = "loadingView"
+        static let menuButton       = "menuButton"
+    }
 }

@@ -23,6 +23,8 @@ class WebViewController: UIViewController {
     private var activity: UIActivityIndicatorView! {
         didSet {
             activity.translatesAutoresizingMaskIntoConstraints = false
+            activity.backgroundColor = UIColor.gray.withAlphaComponent(0.3)
+            activity.accessibilityIdentifier = Constant.AccessibilityIdentifier.loadingView
         }
     }
     
@@ -30,7 +32,7 @@ class WebViewController: UIViewController {
         webView = WKWebView()
         webView.navigationDelegate = self
         view = webView
-        activity = UIActivityIndicatorView(style: .medium)
+        activity = UIActivityIndicatorView(style: .large)
         view.addSubview(activity)
         activity.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         activity.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
@@ -100,6 +102,16 @@ extension WebViewController: WKNavigationDelegate {
     public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         activity.stopAnimating()
         activity.isHidden = true
+    }
+    
+    func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
+        activity.stopAnimating()
+        print(error)
+    }
+    
+    func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
+        activity.stopAnimating()
+        print(error)
     }
 }
 
