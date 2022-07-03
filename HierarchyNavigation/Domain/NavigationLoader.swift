@@ -19,7 +19,7 @@ final class NavigationLoader: JsonDecodeDelegate {
         if let navigation = data as? Navigation {
             NotificationCenter.default.post(name: Notification.navigationLoadDidFinish, object: nil, userInfo: [Constant.UserInfoKey.navigation: navigation])
         } else {
-            // To Do: put the error in a global Error object
+            // TO DO: put the error in a global Error object
             print("Error fetch data")
         }
     }

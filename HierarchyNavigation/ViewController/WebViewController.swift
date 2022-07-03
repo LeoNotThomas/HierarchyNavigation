@@ -106,11 +106,13 @@ extension WebViewController: WKNavigationDelegate {
     
     func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
         activity.stopAnimating()
+        // TO DO: put the error in a global Error object
         print(error)
     }
     
     func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
         activity.stopAnimating()
+        // TO DO: put the error in a global Error object
         print(error)
     }
 }
