@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2187317229B683930049EA35 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187317129B683930049EA35 /* main.swift */; };
 		21EF4D022871A47E00DD8EB7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361614F286EC60E0016B984 /* Constant.swift */; };
 		33616103286CC74C0016B984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33616102286CC74C0016B984 /* AppDelegate.swift */; };
 		33616105286CC74C0016B984 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33616104286CC74C0016B984 /* SceneDelegate.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2187317129B683930049EA35 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		336160FF286CC74C0016B984 /* HierarchyNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HierarchyNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33616102286CC74C0016B984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33616104286CC74C0016B984 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		336160F6286CC74C0016B984 = {
 			isa = PBXGroup;
 			children = (
+				2187317129B683930049EA35 /* main.swift */,
 				33616101286CC74C0016B984 /* HierarchyNavigation */,
 				33616118286CC74E0016B984 /* HierarchyNavigationTests */,
 				33616122286CC74E0016B984 /* HierarchyNavigationUITests */,
@@ -395,6 +398,7 @@
 			files = (
 				3361614D286E1A050016B984 /* UIBarButtonItem+ImageButton.swift in Sources */,
 				33616107286CC74C0016B984 /* WebViewController.swift in Sources */,
+				2187317229B683930049EA35 /* main.swift in Sources */,
 				33C2AB0D287002F600EB1DBC /* TableHeaderLabel.swift in Sources */,
 				33C2AB04286F199E00EB1DBC /* CategoryViewController.swift in Sources */,
 				33C2AB0F28700E3600EB1DBC /* CategoryTableViewCell.swift in Sources */,
