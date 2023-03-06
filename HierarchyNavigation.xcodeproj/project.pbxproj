@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21ADEEC329B65A4700120B8F /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ADEEC229B65A4700120B8F /* Main.swift */; };
-		21ADEEC529B65A8200120B8F /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ADEEC429B65A8200120B8F /* Work.swift */; };
 		21EF4D022871A47E00DD8EB7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361614F286EC60E0016B984 /* Constant.swift */; };
 		33616103286CC74C0016B984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33616102286CC74C0016B984 /* AppDelegate.swift */; };
 		33616105286CC74C0016B984 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33616104286CC74C0016B984 /* SceneDelegate.swift */; };
@@ -56,8 +54,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21ADEEC229B65A4700120B8F /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		21ADEEC429B65A8200120B8F /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
 		336160FF286CC74C0016B984 /* HierarchyNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HierarchyNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33616102286CC74C0016B984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33616104286CC74C0016B984 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,8 +114,6 @@
 		336160F6286CC74C0016B984 = {
 			isa = PBXGroup;
 			children = (
-				21ADEEC229B65A4700120B8F /* Main.swift */,
-				21ADEEC429B65A8200120B8F /* Work.swift */,
 				33616101286CC74C0016B984 /* HierarchyNavigation */,
 				33616118286CC74E0016B984 /* HierarchyNavigationTests */,
 				33616122286CC74E0016B984 /* HierarchyNavigationUITests */,
@@ -399,10 +393,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21ADEEC329B65A4700120B8F /* Main.swift in Sources */,
 				3361614D286E1A050016B984 /* UIBarButtonItem+ImageButton.swift in Sources */,
 				33616107286CC74C0016B984 /* WebViewController.swift in Sources */,
-				21ADEEC529B65A8200120B8F /* Work.swift in Sources */,
 				33C2AB0D287002F600EB1DBC /* TableHeaderLabel.swift in Sources */,
 				33C2AB04286F199E00EB1DBC /* CategoryViewController.swift in Sources */,
 				33C2AB0F28700E3600EB1DBC /* CategoryTableViewCell.swift in Sources */,
