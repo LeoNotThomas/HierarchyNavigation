@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2187318229B68ECE0049EA35 /* workFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187318129B68ECE0049EA35 /* workFile.swift */; };
 		21EF4D022871A47E00DD8EB7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361614F286EC60E0016B984 /* Constant.swift */; };
 		33616103286CC74C0016B984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33616102286CC74C0016B984 /* AppDelegate.swift */; };
 		33616105286CC74C0016B984 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33616104286CC74C0016B984 /* SceneDelegate.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2187318129B68ECE0049EA35 /* workFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workFile.swift; sourceTree = "<group>"; };
 		336160FF286CC74C0016B984 /* HierarchyNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HierarchyNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33616102286CC74C0016B984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33616104286CC74C0016B984 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		336160F6286CC74C0016B984 = {
 			isa = PBXGroup;
 			children = (
+				2187318129B68ECE0049EA35 /* workFile.swift */,
 				33616101286CC74C0016B984 /* HierarchyNavigation */,
 				33616118286CC74E0016B984 /* HierarchyNavigationTests */,
 				33616122286CC74E0016B984 /* HierarchyNavigationUITests */,
@@ -407,6 +410,7 @@
 				33616149286DC71D0016B984 /* NavigationViewModel.swift in Sources */,
 				3361613A286CD43F0016B984 /* APIRequest.swift in Sources */,
 				33616150286EC60E0016B984 /* Constant.swift in Sources */,
+				2187318229B68ECE0049EA35 /* workFile.swift in Sources */,
 				33616135286CC8830016B984 /* Navigation.swift in Sources */,
 				33C2AB0B2870016F00EB1DBC /* InsetLabel.swift in Sources */,
 				3361613D286CD5FF0016B984 /* Notification+Name.swift in Sources */,
