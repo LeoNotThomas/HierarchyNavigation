@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2187318229B68ECE0049EA35 /* workFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187318129B68ECE0049EA35 /* workFile.swift */; };
 		2187318429B68EFF0049EA35 /* mainFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187318329B68EFF0049EA35 /* mainFile.swift */; };
-		2187318229B68ECE0049EA35 /* workFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187318129B68ECE0049EA35 /* workFile.swift */; };
 		21EF4D022871A47E00DD8EB7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361614F286EC60E0016B984 /* Constant.swift */; };
 		33616103286CC74C0016B984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33616102286CC74C0016B984 /* AppDelegate.swift */; };
 		33616105286CC74C0016B984 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33616104286CC74C0016B984 /* SceneDelegate.swift */; };
@@ -59,7 +58,6 @@
 /* Begin PBXFileReference section */
 		2187318129B68ECE0049EA35 /* workFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workFile.swift; sourceTree = "<group>"; };
 		2187318329B68EFF0049EA35 /* mainFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainFile.swift; sourceTree = "<group>"; };
-		2187318129B68ECE0049EA35 /* workFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workFile.swift; sourceTree = "<group>"; };
 		336160FF286CC74C0016B984 /* HierarchyNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HierarchyNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33616102286CC74C0016B984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33616104286CC74C0016B984 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 			children = (
 				2187318129B68ECE0049EA35 /* workFile.swift */,
 				2187318329B68EFF0049EA35 /* mainFile.swift */,
-				2187318129B68ECE0049EA35 /* workFile.swift */,
 				33616101286CC74C0016B984 /* HierarchyNavigation */,
 				33616118286CC74E0016B984 /* HierarchyNavigationTests */,
 				33616122286CC74E0016B984 /* HierarchyNavigationUITests */,
