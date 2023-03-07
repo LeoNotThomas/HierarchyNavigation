@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		21672C7729B6C080005A730C /* workFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21672C7629B6C080005A730C /* workFile.swift */; };
 		21672C7529B6C040005A730C /* mainFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21672C7429B6C040005A730C /* mainFile.swift */; };
+		21672C7729B6C080005A730C /* workFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21672C7629B6C080005A730C /* workFile.swift */; };
 		21EF4D022871A47E00DD8EB7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361614F286EC60E0016B984 /* Constant.swift */; };
 		33616103286CC74C0016B984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33616102286CC74C0016B984 /* AppDelegate.swift */; };
 		33616105286CC74C0016B984 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33616104286CC74C0016B984 /* SceneDelegate.swift */; };
@@ -58,6 +59,7 @@
 /* Begin PBXFileReference section */
 		21672C7629B6C080005A730C /* workFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workFile.swift; sourceTree = "<group>"; };
 		21672C7429B6C040005A730C /* mainFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainFile.swift; sourceTree = "<group>"; };
+		21672C7629B6C080005A730C /* workFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workFile.swift; sourceTree = "<group>"; };
 		336160FF286CC74C0016B984 /* HierarchyNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HierarchyNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33616102286CC74C0016B984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33616104286CC74C0016B984 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				33616110286CC74E0016B984 /* Info.plist */,
 				21672C7629B6C080005A730C /* workFile.swift */,
 				21672C7429B6C040005A730C /* mainFile.swift */,
+				21672C7629B6C080005A730C /* workFile.swift */,
 			);
 			path = HierarchyNavigation;
 			sourceTree = "<group>";
